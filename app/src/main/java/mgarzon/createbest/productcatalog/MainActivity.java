@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextPrice;
     Button buttonAddProduct;
     ListView listViewProducts;
-
     List<Product> products;
-
     DatabaseReference databaseProducts;
 
     @Override
