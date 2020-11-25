@@ -26,7 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText editTextName;
     EditText editTextPrice;
     Button buttonAddProduct;
@@ -102,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void showUpdateDeleteDialog(final String productId, String productName) {
-
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
         LayoutInflater inflater = getLayoutInflater();
         final View dialogView = inflater.inflate(R.layout.update_dialog, null);
@@ -116,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
         dialogBuilder.setTitle(productName);
         final AlertDialog b = dialogBuilder.create();
         b.show();
-
 
         buttonUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
