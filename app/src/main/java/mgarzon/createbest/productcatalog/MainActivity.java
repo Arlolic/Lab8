@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     Button buttonAddProduct;
     ListView listViewProducts;
     List<Product> products;
-    DatabaseReference databaseProducts;
+     DatabaseReference databaseProducts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
