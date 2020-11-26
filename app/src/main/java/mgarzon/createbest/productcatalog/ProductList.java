@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ProductList extends ArrayAdapter<Product> {
-private Activity context;
+        private Activity context;
         List<Product> products;
 
 public ProductList(Activity context, List<Product> products) {
